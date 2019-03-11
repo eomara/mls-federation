@@ -1,7 +1,7 @@
 ---
 title: The Messaging Layer Security (MLS) Federation
 abbrev: MLS Federation
-docname: draft-ietf-mls-federation-00
+docname: draft-omara-mls-federation-00
 category: info
 
 ipr: trust200902

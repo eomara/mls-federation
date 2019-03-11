@@ -1,7 +1,7 @@
 ---
 title: The Messaging Layer Security (MLS) Federation
 abbrev: MLS Federation
-docname: draft-ietf-mls-federation-latest
+docname: draft-ietf-mls-federation-00
 category: info
 
 ipr: trust200902
@@ -251,20 +251,20 @@ Multiple delivery services can be avoided, with server side fan out, and all key
 The protocol between different delivery services is out of the scope of this document.
 
 ~~~~
-                                  +-----------------+         +---------+ 
-                            +--> + Deliver Service B + +---> + Client B1 +
-                            |    +                   +        +---------+ 
-                            |     +-----------------+                     
-                            |                                             
-                     +------+----------+                      +---------+ 
- +---------+        + Deliver Service A + +----------------> + Client A2 +
-+ Client A1 + +---> +                   +                     +---------+ 
+                               +-----------------+         +---------+ 
+                         +--> + Deliver Service B + +---> + Client B1 +
+                         |    +                   +        +---------+ 
+                         |     +-----------------+                     
+                         |                                             
+                     +---+-------------+                   +---------+ 
+ +---------+        + Deliver Service A + +-------------> + Client A2 +
++ Client A1 + +---> +                   +                  +---------+ 
  +---------+         +------+----------+                                  
-                            |                                             
-                            |     +-----------------+         +---------+ 
-                            +--> + Deliver Service C + +---> + Client C1 +
-                                 +                   +        +---------+ 
-                                  +-----------------+                     
+                         |                                             
+                         |     +-----------------+         +---------+ 
+                         +--> + Deliver Service C + +---> + Client C1 +
+                              +                   +        +---------+ 
+                               +-----------------+                     
                                                                                                                                                                                                                                                     
 ~~~~
 
